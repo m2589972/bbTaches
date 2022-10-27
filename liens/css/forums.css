@@ -1,0 +1,162 @@
+
+/*********************************************************************************************/
+/* formulaire de saisie de la date de traitement */
+
+.details_discussion input.jour_traitement
+{
+	width : 10em;
+}
+
+
+/*********************************************************************************************/
+/* affichage des messages d'une discussion */
+
+
+#bbpress-forums div.bbp-reply-content
+{
+	padding : 0;
+}
+
+.bbp-reply-content p
+{
+	margin : 0;
+}
+
+
+/*********************************************************************************************/
+/* choix du jour */
+
+form .date_traitement input.jour_traitement
+{
+	width : unset;
+	padding : 0;
+	min-height : unset;
+}
+
+
+/*********************************************************************************************/
+/* choix de l'heure */
+
+form .menu_deroulant_nombres select
+{
+	width : unset;
+	padding : 0;
+	height : unset;
+	min-height : unset;
+}
+
+  form .date_traitement input.modifie
+, form .menu_deroulant_nombres select.modifie
+{
+	border-color : #582;
+	border-width : 2px;
+}
+
+
+/*********************************************************************************************/
+/* liste taches */
+
+
+.liste_taches .tache
+{
+	border : 1px solid #999;
+	background-color : #FFF;
+	margin : 0.2em;
+	
+	padding : 0.5em 1em;
+	
+	display : flex;
+	gap : 3em;
+}
+
+  .tache > span
+, .tache > div
+{
+	padding : 0.5em;
+}
+
+.tache .titre
+{
+	width : 38%;
+}
+
+.tache .forum
+{
+	border : 1px solid #EEE;
+	width : 25%;
+}
+
+
+.tache.proche
+{
+	background-color : #FC5;
+}
+
+  .tache.tres_proche
+, .tache.tres_proche *
+{
+	background-color : #A00;
+	color : #DDD;
+}
+
+
+
+/*********************************************************************************************/
+/* message */
+
+.message
+{
+	border : 1px solid #CCC;
+	border-left-width : 4px;
+	
+	padding : 1px 12px;
+	margin-bottom : 1em;
+	
+}
+
+.message.succes
+{
+	border-left-color : #0A2;
+}
+
+
+
+/*********************************************************************************************/
+/* pièces jointes */
+
+.conteneur_pieces_jointes
+{
+	
+	margin : 1em 0;
+	padding : 1em 0;
+	
+	border-top : 1px solid #333;
+	border-bottom : 1px solid #333;
+	
+}
+
+  .image_suppression
+, .message_en_cours
+{
+	margin-left : 0.7em;
+}
+
+.en_cours
+{
+	background : url("../../../../../wp-admin/images/spinner.gif") no-repeat;
+	background-size : 0.8em 0.8em;
+	display : inline-block;
+	vertical-align : middle;
+	width : 1em;
+	height : 1em;
+	margin-left : 0.5em;
+}
+
+
+/*********************************************************************************************/
+/*  */
+
+
+/*********************************************************************************************/
+
+
