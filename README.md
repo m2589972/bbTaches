@@ -13,5 +13,5 @@ bbTaches permet ensuite de voir la listes des tâches filtrées par utilisateur.
 Voir les informations de l'extension libre bbPress sur wordpress.org : 
 https://fr.wordpress.org/plugins/bbpress/
 
-[Téléchargez la dernière version de bbTaches en cliquant ici (version 1 du 27/10/2022)](https://github.com/m2589972/bbTaches/releases/download/v1/bbTaches.1.zip)
+[Téléchargez la dernière version de bbTaches en cliquant ici (version 2 du 18/12/2022)](https://github.com/m2589972/bbTaches/releases/download/v2/bbTaches.2.zip)
 
